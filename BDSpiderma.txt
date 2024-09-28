@@ -1,0 +1,16 @@
+Create DataBase BDSpiderMan;
+Use BDSpiderMan;
+
+-- Personajes
+create table personaje
+( codigo int PRIMARY key auto_increment,
+nombre varchar(30),
+apellido varchar(30),
+alias varchar(50)
+);
+
+insert personaje values (1,'Peter','Parker','Spiderman');
+insert personaje values (2,'Mary Jane', 'Watson', 'Mary Jane');
+insert personaje values (3,'Norman', 'Osborn', 'Green Goblin');
+insert personaje values (4,'Harry', 'Osborn', 'New Goblin');
+insert personaje values (5,'Otto', 'Octavius', 'Doctor Octopus');
